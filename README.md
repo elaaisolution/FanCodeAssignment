@@ -27,48 +27,48 @@ This project automates the verification of user tasks using Rest Assured and Tes
 
 ```mvn clean install
 
-## Running the Tests
+## **Running the Tests**
 
 To execute the tests, use the following command:
 
 ```mvn clean test
 
-## Project Structure
+## **Project Structure**
 
 src
 └── main
     └── java
         └── com
             └── elaa
-				└──	fancode
-					├── Runner.java
-					└── Common
-						└── GetMethod.java
-						└── PutMethod.java
-						└── PostMethod.java
-						└── PatchMethod.java
-						└── Utility.java
-                    └── report
-						└── ReportUtils.java
-                    └── request
-						└── GetRequest.java
+		└── fancode
+			├── Runner.java
+			└── Common
+			    └── GetMethod.java
+			    └── PutMethod.java
+			    └── PostMethod.java
+			    └── PatchMethod.java
+			    └── Utility.java
+                    	└── report
+			    └── ReportUtils.java
+                    	└── request
+	 		    └── GetRequest.java
 
 
 
-## Files
+## **Files**
 GetMethod.java,PutMethod.java,PostMethod.java,PatchMethod.java,Utility.java
 Contains Reusable methods
 
-Runner.java
+**Runner.java**
 Contains the test scenarios for verifying the users' todos completion percentage.
 
-GetRequest.java
+**GetRequest.java**
 Provides utility methods for making API calls to fetch users and todos.
 
-ReportUtils.java
+**ReportUtils.java**
 Handles the setup and teardown of ExtentReports for generating test reports.
 
-## Dependencies
+## **Dependencies**
 Ensure the following dependencies are included in your pom.xml:
 
 ```<dependencies>
@@ -132,19 +132,19 @@ Ensure the following dependencies are included in your pom.xml:
 		</dependency>
   </dependencies>
   
-## Report
+## **Report**
 The test results are generated using ExtentReports. After test execution, the report is available at target/ExtentReports/.
 
-## Explanation
+## **Explanation**
 
-## Test Execution
+## **Test Execution**
 The test verifies the following:
 
 1. Fetches users from the city FanCode based on latitude and longitude conditions and verifies the status code and response.
 2. Checks that all users from FanCode city have completed more than 50% of their todos.
 
 
-## License
+## **License**
 This project is licensed under the MIT License.
 
 This `README.md` file provides comprehensive instructions for setting up and running the tests, including a description of the scenario, project structure, dependencies, and how to generate the test report.
