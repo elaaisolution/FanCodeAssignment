@@ -56,7 +56,7 @@ To execute the tests, use the following command:
 
 
 ## Files
-GetMethod.java,PutMethod.java,PostMethod.java,PatchMethod.java,Utility.java
+**GetMethod.java,PutMethod.java,PostMethod.java,PatchMethod.java,Utility.java**
 Contains Reusable methods
 
 **Runner.java**
