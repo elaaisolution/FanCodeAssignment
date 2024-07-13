@@ -44,9 +44,6 @@ To execute the tests, use the following command:
 			├── Runner.java
 			└── Common
 			    └── GetMethod.java
-			    └── PutMethod.java
-			    └── PostMethod.java
-			    └── PatchMethod.java
 			    └── Utility.java
                     	└── report
 			    └── ReportUtils.java
